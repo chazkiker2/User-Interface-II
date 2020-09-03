@@ -3,49 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chaz Kiker | Portfolio</title>
+    <link rel="stylesheet" href="style/index.css" type="text/css" />
+    <title>Chaz Kiker | Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet" />
   </head>
+
   <body>
-    
     <header>
       <h1>Chaz Kiker</h1>
       <nav>
-        <ul>
-          <li><a href="#index">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Projects</a></li>
-        </ul>
+        <a href="#index">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#projects">Projects</a>
       </nav>
-      <h2>Introducing My Site</h2>
-      <p>
-        Lorem ipsum text here. Lorem ipsum text here. Lorem ipsum text here. Lorem
-        ipsum text here. Lorem ipsum text here. Lorem ipsum text here. Lorem ipsum
-        text here. Lorem ipsum text here. Lorem ipsum text here.
-      </p>
+
+      <div class="header-content">
+        <h2>Introducing My Site</h2>
+        <p>
+          Lorem ipsum text here. Lorem ipsum text here. Lorem ipsum text here.
+          Lorem ipsum text here. Lorem ipsum text here. Lorem ipsum text here.
+          Lorem ipsum text here. Lorem ipsum text here. Lorem ipsum text here.
+        </p>
+      </div>
     </header>
 
-    <section>
-      <div id="img-container">
-        <img src="" alt="" />
-      </div>
+    <section id="wide-img">
+      <!-- empty section where full-width image will go -->
     </section>
 
-    <section id="gallery">
-      <div class="flex-container">
-        <div class="flex-item img-container"><img src="" alt="" /></div>
-        <div class="flex-item img-container"><img src="" alt="" /></div>
-        <div class="flex-item img-container"><img src="" alt="" /></div>
-        <div class="flex-item img-container"><img src="" alt="" /></div>
-        <p>some text here</p>
-      </div>
+    <section id="img-gallery">
+      <!-- <div class="flxContainer"> -->
+      <div class="imgContainer"></div>
+      <div class="imgContainer"></div>
+      <div class="imgContainer"></div>
+      <div class="imgContainer"></div>
+      <!-- </div> -->
+      <p>some text will go here describing all of hte projects on the left</p>
     </section>
 
     <footer>
-      <div class="banner">
-        <button id="contact-me" href="">Contact Me</button>
-      </div>
+      <button id="contact-me" href="#contact">Contact Me</button>
     </footer>
-
   </body>
 </html>
