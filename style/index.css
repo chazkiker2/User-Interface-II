@@ -94,10 +94,10 @@ nav a:hover {
 
 }
 
-section {
+/* section {
   width: 100%;
   margin: 2% 0;
-}
+} */
 
 #wide-img {
   height: 40vh;
@@ -107,5 +107,54 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  /* background-attachment: fixed; */
+}
+
+.flexContainer {
+  /* background-color: darkslategrey; */
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  /* align-items: stretch; */
+  width: 80%;
+  padding: 0;
+  /* margin-top: 4%; */
+}
+
+.flexContainer img {
+  height: auto;
+  width: 30vh;
+  margin: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: unset;
   background-attachment: fixed;
 }
+
+/* .img1 {
+  background-image: url("Assets/brooke-cagle-TA6t4NbHCv4-unsplash.jpg");
+}
+.img2 {
+  background-image: url("Assets/bevan-kay-OwS2PS8zj5M-unsplash.jpg");
+}
+.img3 {
+  background-image: url("Assets/shane-rounce-5f4xGaQnM1E-unsplash.jpg");
+}
+.img4 {
+  background-image: url("Assets/alex-loup-dX1JiDFV9fQ-unsplash.jpg");
+} */
+
+#img-gallery {
+  /* display: flex; */
+  /* display: inline-block; */
+  margin: 4% 0;
+  /* align-items: center; */
+  /* display: inline-block; */
+
+}
+#img-gallery p {
+  
+  display: ;
+  width: 15%;
+}
+
