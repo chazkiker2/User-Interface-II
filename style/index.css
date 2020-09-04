@@ -73,6 +73,12 @@ h1, h2 {
   padding: 1%;
 }
 
+span {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -100,7 +106,6 @@ nav a:hover {
   text-align: center;
 }
 
-
 #wide-img {
   margin: 2% auto;
   height: 40vh;
@@ -123,6 +128,7 @@ nav a:hover {
   width: 80%;
   padding: 0;
   /* margin-top: 4%; */
+  max-height: 170.25rem;
 }
 
 .flexContainer img {
@@ -156,17 +162,18 @@ nav a:hover {
   margin: 2% 0;
   /* align-items: center; */
   /* display: inline-block; */
-
 }
 #img-gallery p {
-  padding: 2%;
+  padding-right: 4%;
+  padding-left: 2%;
   text-align: center;
   width: 20%;
+  min-width: 14.2594rem;
 }
 
 footer {
   margin-top: 2% 0;
-  height: 20rem;
+  height: 18rem;
   border-top: 1px solid gray;
   background-color: lightgrey;
   display: flex;
@@ -184,7 +191,7 @@ footer {
   width: 10%;
   height: 30%;
   padding: 1% 0;
-  min-width: 8rem;
+  min-width: 10.6094rem;
 }
 
 #contact-me:hover {
