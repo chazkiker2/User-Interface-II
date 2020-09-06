@@ -109,26 +109,19 @@ nav a:hover {
 #wide-img {
   margin: 2% auto;
   height: 40vh;
-  /* border: 2px solid hotpink; */
-  /* background-image:url('https://images.unsplash.com/photo-1537526358797-e732f762d6af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1350&q=80'); */
   background-image:url('../Assets/trevor-cole-vQf7WHG_wns-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-attachment: fixed; */
 }
 
 .flexContainer {
-  /* background-color: darkslategrey; */
   display: inline-flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  /* align-items: stretch; */
-  /* align-content: space-between; */
   width: 80%;
   padding: 0;
-  /* margin-top: 4%; */
-  max-height: 170.25rem;
+  /* max-height: 170.25rem; */
 }
 
 .flexContainer img {
@@ -141,27 +134,11 @@ nav a:hover {
   background-attachment: fixed;
 }
 
-/* .img1 {
-  background-image: url("Assets/brooke-cagle-TA6t4NbHCv4-unsplash.jpg");
-}
-.img2 {
-  background-image: url("Assets/bevan-kay-OwS2PS8zj5M-unsplash.jpg");
-}
-.img3 {
-  background-image: url("Assets/shane-rounce-5f4xGaQnM1E-unsplash.jpg");
-}
-.img4 {
-  background-image: url("Assets/alex-loup-dX1JiDFV9fQ-unsplash.jpg");
-} */
-
 #img-gallery {
-  /* display: flex; */
-  /* display: inline-block; */
   display: inline-flex;
   align-items: center;
   margin: 2% 0;
-  /* align-items: center; */
-  /* display: inline-block; */
+  max-width: 100%;
 }
 #img-gallery p {
   padding-right: 4%;
