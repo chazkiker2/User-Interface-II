@@ -210,6 +210,7 @@ footer {
 
   .flexContainer img {
     min-width: 250px;
+    max-height: 374.9441216px;
     margin: 2%;
   }
 
@@ -252,6 +253,7 @@ footer {
   .flexContainer img {
     width: 20vw;
     min-width: 175px;
+    max-height: 262.4608851px;
   }
 
   /* footer styles */
