@@ -108,6 +108,7 @@ nav a:hover {
   margin: 0 auto;
   width: 80%;
   text-align: center;
+  color: #4f4f4f;
 }
 
 #wide-img {
@@ -153,6 +154,7 @@ nav a:hover {
   text-align: center;
   width: 20%;
   min-width: 14.2594rem;
+  color: #4f4f4f;
 }
 
 footer {
