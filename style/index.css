@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -50,7 +50,7 @@ table {
 /* GENERAL STYLES */
 * {
   box-sizing: border-box;
-  /* border: 1px solid gray; */
+  border: 1px solid gray;
   max-width: 100%;
 }
 html {
@@ -121,7 +121,6 @@ nav a:hover {
   justify-content: space-around;
   width: 80%;
   padding: 0;
-  /* max-height: 170.25rem; */
 }
 
 .flexContainer img {
@@ -174,5 +173,47 @@ footer {
 #contact-me:hover {
   background-color: black;
   color: white;
+}
+
+/* Media Queries & Styles for various screen sizes */
+@media (max-width: 800px) {
+  /* Styles for Tablet portrait */
+
+  /* hero-img styles */
+  #wide-img {
+    /* margin: 2% 6%; */
+    width: 90%;
+  }
+
+  /* img-gallery styles */
+  #img-gallery {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    /* width: 90%; */
+    /* margin: 0 auto; */
+  }
+  .flexContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 2% 0;
+  }
+
+  .flexContainer img {
+    margin: 2%;
+  }
+
+  #img-gallery p {
+    display: block;
+    width: 90%;
+    margin: 2% 0;
+  }
+
+}
+
+@media (max-width: 500px) {
+  /* Styles for  mobile portrait */
+
 }
 
