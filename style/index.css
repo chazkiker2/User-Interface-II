@@ -130,7 +130,7 @@ nav a:hover {
 .flexContainer img {
   height: auto;
   width: 25%;
-  min-width: 30rem;
+  min-width: 300px;
   /* width: 15vw; */
   /* max-width: 19vw;
   min-width: 10vw; */
@@ -209,7 +209,7 @@ footer {
   }
 
   .flexContainer img {
-    min-width: 25rem;
+    min-width: 250px;
     margin: 2%;
   }
 
@@ -251,7 +251,7 @@ footer {
   /* img gallery styles */
   .flexContainer img {
     width: 20vw;
-    min-width: 20rem;
+    min-width: 175px;
   }
 
   /* footer styles */
