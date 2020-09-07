@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -50,7 +50,7 @@ table {
 /* GENERAL STYLES */
 * {
   box-sizing: border-box;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   max-width: 100%;
 }
 html {
@@ -71,6 +71,10 @@ h1, h2 {
   font-size: 5rem;
   text-align: center;
   padding: 1%;
+}
+
+h2 {
+  font-size: 4rem;
 }
 
 span {
@@ -118,14 +122,18 @@ nav a:hover {
 .flexContainer {
   display: inline-flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 80%;
   padding: 0;
 }
 
 .flexContainer img {
   height: auto;
-  width: 30vh;
+  width: 25%;
+  min-width: 30rem;
+  /* width: 15vw; */
+  /* max-width: 19vw;
+  min-width: 10vw; */
   margin: auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -201,6 +209,7 @@ footer {
   }
 
   .flexContainer img {
+    min-width: 25rem;
     margin: 2%;
   }
 
@@ -215,5 +224,39 @@ footer {
 @media (max-width: 500px) {
   /* Styles for  mobile portrait */
 
+  /* nav bar styles */
+  nav {
+    /* width: 40%; */
+    margin: 0 auto;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+  }
+  nav a {
+    width: 30%;
+    margin: 2% 0;
+  }
+
+  /* header-content styles */
+  p#about {
+    font-size: 0.1rem;
+  }
+
+  /* hero img styles */
+  #wide-img {
+    height: 25vh;
+  }
+
+  /* img gallery styles */
+  .flexContainer img {
+    width: 20vw;
+    min-width: 20rem;
+  }
+
+  /* footer styles */
+  footer {
+    height: 14rem;
+  }
 }
 
