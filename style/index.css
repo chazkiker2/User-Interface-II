@@ -73,6 +73,10 @@ h1, h2 {
   padding: 1%;
 }
 
+h2 {
+  font-size: 4rem;
+}
+
 span {
   text-decoration: line-through;
   text-decoration-color: red;
@@ -104,6 +108,7 @@ nav a:hover {
   margin: 0 auto;
   width: 80%;
   text-align: center;
+  color: #4f4f4f;
 }
 
 #wide-img {
@@ -118,15 +123,18 @@ nav a:hover {
 .flexContainer {
   display: inline-flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 80%;
   padding: 0;
-  /* max-height: 170.25rem; */
 }
 
 .flexContainer img {
   height: auto;
-  width: 30vh;
+  width: 25%;
+  min-width: 300px;
+  /* width: 15vw; */
+  /* max-width: 19vw;
+  min-width: 10vw; */
   margin: auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -146,6 +154,7 @@ nav a:hover {
   text-align: center;
   width: 20%;
   min-width: 14.2594rem;
+  color: #4f4f4f;
 }
 
 footer {
@@ -174,5 +183,84 @@ footer {
 #contact-me:hover {
   background-color: black;
   color: white;
+}
+
+/* Media Queries & Styles for various screen sizes */
+@media (max-width: 800px) {
+  /* Styles for Tablet portrait */
+
+  /* hero-img styles */
+  #wide-img {
+    /* margin: 2% 6%; */
+    width: 90%;
+  }
+
+  /* img-gallery styles */
+  #img-gallery {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    /* width: 90%; */
+    /* margin: 0 auto; */
+  }
+  .flexContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 2% 0;
+  }
+
+  .flexContainer img {
+    min-width: 250px;
+    max-height: 374.9441216px;
+    margin: 2%;
+  }
+
+  #img-gallery p {
+    display: block;
+    width: 90%;
+    margin: 2% 0;
+  }
+
+}
+
+@media (max-width: 500px) {
+  /* Styles for  mobile portrait */
+
+  /* nav bar styles */
+  nav {
+    /* width: 40%; */
+    margin: 0 auto;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+  }
+  nav a {
+    width: 30%;
+    margin: 2% 0;
+  }
+
+  /* header-content styles */
+  p#about {
+    font-size: 0.1rem;
+  }
+
+  /* hero img styles */
+  #wide-img {
+    height: 25vh;
+  }
+
+  /* img gallery styles */
+  .flexContainer img {
+    width: 20vw;
+    min-width: 175px;
+    max-height: 262.4608851px;
+  }
+
+  /* footer styles */
+  footer {
+    height: 14rem;
+  }
 }
 
